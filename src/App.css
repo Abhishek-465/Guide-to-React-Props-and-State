@@ -1,0 +1,108 @@
+/*toggler css */
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+nav.dark .toggler--light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+nav.dark .toggler-dark {
+  color: #FFFFFF;
+}
+
+nav.dark .toggler--slider {
+  justify-content: flex-end;
+}
+/*rest of the navbar */
+nav{
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+}
+.logo{
+  padding-left: 40px;
+  margin-right: 50px;
+}
+nav p{
+  margin-right: auto;
+}
+.toggler{
+  margin-right: 20px;
+
+}
+nav.dark{
+  background-color: #2B283A;
+  color: #F5F5F5;
+}
+main{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main p{
+  width: 300px;
+  text-align: center;
+}
+main.dark{
+  background-color: #4d4a55;
+  color:#FFFFFF
+}
+.card-img{
+  margin: 20px 0px;
+
+}
+img{
+  height: 370px;
+  width: 370px;
+}
