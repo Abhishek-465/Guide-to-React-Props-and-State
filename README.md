@@ -1,7 +1,9 @@
 # React Props and State
 
 Welcome to the React Props and State guide! This repository serves as a comprehensive resource to understand the fundamental concepts of React props and state, empowering you to build dynamic and interactive user interfaces with confidence.
-
+<br>
+URL:https://6583e5981eb607bba2c8b3b5--frabjous-haupia-7429c4.netlify.app/
+<br>
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -59,8 +61,6 @@ To dive into the world of React props and state, follow these steps:
 
 Contributions are welcome! If you find any issues, have suggestions, or want to add more examples, feel free to open an issue or create a pull request. Let's collaborate to make this guide even more valuable for the React community.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use and modify the content as needed.
 
 Happy coding! 🚀
